@@ -2,7 +2,7 @@
 int main()
 {
      int i = 1;
-	 int *c = &i;
+	 char *c = (char *)&i;
 	if (*c)
 		printf("Little endian");
 	else
